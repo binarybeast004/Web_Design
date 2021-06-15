@@ -1,0 +1,166 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image:url(Background.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Odibee Sans', cursive;
+
+
+}
+.Menubar
+{
+    background:rgb(0, 100,0);
+    max-width: 100%;
+    text-align:center;
+    display: block;
+
+}
+.Menubar ul li 
+{
+    display: inline-flex ;
+    list-style: none ;
+    color: #fff;
+ 
+
+}
+
+.Menubar ul li
+{
+   width: 110px;
+   margin: 15px;
+   padding: 15px;
+}
+
+.Menubar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+ .Menubar ul li :hover 
+{
+    background: #2bab0d;
+    border-bottom: 3px;
+
+}
+
+.C_name h1{
+    text-align: center;
+    width: 100%;
+    margin:auto;
+    padding: 20px;
+    background: #e7ebf1;
+    font-size: 45px;
+    font-style:oblique;
+    font-family: 'Odibee Sans', cursive;
+    font-weight: bold;
+    font-display;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+    
+  }
+  .container img {
+      position:relative;
+      margin-top: 15px;
+      margin-left: 15px;
+      padding: 15px;;
+      max-width: 50%;
+      left:10%;
+  }
+
+
+  /* Top right text */
+  .top-right {
+    position:absolute;
+    margin: 0%;
+    padding: auto;
+    top:20%;
+    left:40%;
+    max-width: 50%;
+  
+  }
+  
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    max-width: 50%;
+  }
+    
+
+
+
+
+  /*Submenu-1*/
+    .submenu-1 {
+      display: none;
+    }
+
+    .Menubar ul li  .submenu-1 {  /*hover key problem*/
+        display: block;
+        position: absolute;
+        background-color:#2bab0d;
+        margin-top:60px;
+        margin-left:-15px;
+      
+    
+    }
+
+.Menubar ul li :hover.submenu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.Menubar ul li :hover .submenu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px;
+    background: transparent;
+    border-radius: 0% dotted;
+    text-align: left;
+}
+
+
+
+/* submenu-2*/
+.submenu-2 {
+    background-color: #2bab0d;
+    display: none;
+  }
+
+  .Menubar ul li  .submenu-2 {  /*hover key problem*/
+      display: block;
+      position: absolute;
+      background-color: #2bab0d;
+      margin-top:60px;
+      margin-left:-15px;
+    
+  
+  }
+
+.Menubar ul li :hover.submenu-2 ul {
+  display: block;
+  margin: 10px;
+}
+
+.Menubar ul li :hover .submenu-2 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
